@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def find_parent(parent, x):
   if parent[x] != x:
     return find_parent(parent, parent[x])
@@ -27,3 +28,5 @@ print()
 print('부모 테이블: ', end='')
 for i in range(1, v + 1):
   print(parent[i], end=' ')
+=======
+>>>>>>> 8aa6f34969e56ebc06f831f98de571d91f2b64a9
